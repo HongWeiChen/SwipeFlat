@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAD0249523E922F2009BAE0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD0249423E922F2009BAE0E /* AppDelegate.m */; };
+		AAD0249B23E922F2009BAE0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD0249A23E922F2009BAE0E /* ViewController.m */; };
+		AAD024A023E922F4009BAE0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD0249F23E922F3009BAE0E /* Assets.xcassets */; };
+		AAD024A323E922F4009BAE0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD024A123E922F4009BAE0E /* LaunchScreen.storyboard */; };
+		AAD024A623E922F4009BAE0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD024A523E922F4009BAE0E /* main.m */; };
+		AAD024B023E922F4009BAE0E /* SwipeFlatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD024AF23E922F4009BAE0E /* SwipeFlatTests.m */; };
+		AAD024BB23E922F4009BAE0E /* SwipeFlatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD024BA23E922F4009BAE0E /* SwipeFlatUITests.m */; };
+		AAD024CA23E92307009BAE0E /* SwipeFlatView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD024C923E92307009BAE0E /* SwipeFlatView.m */; };
+		AAD024CD23E92A16009BAE0E /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD024CC23E92A16009BAE0E /* AViewController.m */; };
+		AAD024D023E92A1D009BAE0E /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD024CF23E92A1D009BAE0E /* BViewController.m */; };
+		AAD024D323E92A22009BAE0E /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD024D223E92A22009BAE0E /* CViewController.m */; };
+		AAD024D623E92A28009BAE0E /* DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD024D523E92A28009BAE0E /* DViewController.m */; };
+		AAD024D923E92E4B009BAE0E /* SwipeFlatConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD024D823E92E4B009BAE0E /* SwipeFlatConfiguration.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAD024AC23E922F4009BAE0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD0248823E922F2009BAE0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD0248F23E922F2009BAE0E;
+			remoteInfo = SwipeFlat;
+		};
+		AAD024B723E922F4009BAE0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD0248823E922F2009BAE0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD0248F23E922F2009BAE0E;
+			remoteInfo = SwipeFlat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAD0249023E922F2009BAE0E /* SwipeFlat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeFlat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD0249323E922F2009BAE0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAD0249423E922F2009BAE0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAD0249923E922F2009BAE0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAD0249A23E922F2009BAE0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAD0249F23E922F3009BAE0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAD024A223E922F4009BAE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAD024A423E922F4009BAE0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD024A523E922F4009BAE0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAD024AB23E922F4009BAE0E /* SwipeFlatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeFlatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD024AF23E922F4009BAE0E /* SwipeFlatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeFlatTests.m; sourceTree = "<group>"; };
+		AAD024B123E922F4009BAE0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD024B623E922F4009BAE0E /* SwipeFlatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeFlatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD024BA23E922F4009BAE0E /* SwipeFlatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeFlatUITests.m; sourceTree = "<group>"; };
+		AAD024BC23E922F4009BAE0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD024C823E92307009BAE0E /* SwipeFlatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeFlatView.h; sourceTree = "<group>"; };
+		AAD024C923E92307009BAE0E /* SwipeFlatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeFlatView.m; sourceTree = "<group>"; };
+		AAD024CB23E92A16009BAE0E /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		AAD024CC23E92A16009BAE0E /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		AAD024CE23E92A1D009BAE0E /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		AAD024CF23E92A1D009BAE0E /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		AAD024D123E92A22009BAE0E /* CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		AAD024D223E92A22009BAE0E /* CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+		AAD024D423E92A28009BAE0E /* DViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DViewController.h; sourceTree = "<group>"; };
+		AAD024D523E92A28009BAE0E /* DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DViewController.m; sourceTree = "<group>"; };
+		AAD024D723E92E4B009BAE0E /* SwipeFlatConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeFlatConfiguration.h; sourceTree = "<group>"; };
+		AAD024D823E92E4B009BAE0E /* SwipeFlatConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeFlatConfiguration.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAD0248D23E922F2009BAE0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD024A823E922F4009BAE0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD024B323E922F4009BAE0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAD0248723E922F2009BAE0E = {
+			isa = PBXGroup;
+			children = (
+				AAD0249223E922F2009BAE0E /* SwipeFlat */,
+				AAD024AE23E922F4009BAE0E /* SwipeFlatTests */,
+				AAD024B923E922F4009BAE0E /* SwipeFlatUITests */,
+				AAD0249123E922F2009BAE0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAD0249123E922F2009BAE0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAD0249023E922F2009BAE0E /* SwipeFlat.app */,
+				AAD024AB23E922F4009BAE0E /* SwipeFlatTests.xctest */,
+				AAD024B623E922F4009BAE0E /* SwipeFlatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAD0249223E922F2009BAE0E /* SwipeFlat */ = {
+			isa = PBXGroup;
+			children = (
+				AAD0249323E922F2009BAE0E /* AppDelegate.h */,
+				AAD0249423E922F2009BAE0E /* AppDelegate.m */,
+				AAD0249923E922F2009BAE0E /* ViewController.h */,
+				AAD0249A23E922F2009BAE0E /* ViewController.m */,
+				AAD024D723E92E4B009BAE0E /* SwipeFlatConfiguration.h */,
+				AAD024D823E92E4B009BAE0E /* SwipeFlatConfiguration.m */,
+				AAD024C823E92307009BAE0E /* SwipeFlatView.h */,
+				AAD024C923E92307009BAE0E /* SwipeFlatView.m */,
+				AAD024CB23E92A16009BAE0E /* AViewController.h */,
+				AAD024CC23E92A16009BAE0E /* AViewController.m */,
+				AAD024CE23E92A1D009BAE0E /* BViewController.h */,
+				AAD024CF23E92A1D009BAE0E /* BViewController.m */,
+				AAD024D123E92A22009BAE0E /* CViewController.h */,
+				AAD024D223E92A22009BAE0E /* CViewController.m */,
+				AAD024D423E92A28009BAE0E /* DViewController.h */,
+				AAD024D523E92A28009BAE0E /* DViewController.m */,
+				AAD0249F23E922F3009BAE0E /* Assets.xcassets */,
+				AAD024A123E922F4009BAE0E /* LaunchScreen.storyboard */,
+				AAD024A423E922F4009BAE0E /* Info.plist */,
+				AAD024A523E922F4009BAE0E /* main.m */,
+			);
+			path = SwipeFlat;
+			sourceTree = "<group>";
+		};
+		AAD024AE23E922F4009BAE0E /* SwipeFlatTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD024AF23E922F4009BAE0E /* SwipeFlatTests.m */,
+				AAD024B123E922F4009BAE0E /* Info.plist */,
+			);
+			path = SwipeFlatTests;
+			sourceTree = "<group>";
+		};
+		AAD024B923E922F4009BAE0E /* SwipeFlatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD024BA23E922F4009BAE0E /* SwipeFlatUITests.m */,
+				AAD024BC23E922F4009BAE0E /* Info.plist */,
+			);
+			path = SwipeFlatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAD0248F23E922F2009BAE0E /* SwipeFlat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD024BF23E922F4009BAE0E /* Build configuration list for PBXNativeTarget "SwipeFlat" */;
+			buildPhases = (
+				AAD0248C23E922F2009BAE0E /* Sources */,
+				AAD0248D23E922F2009BAE0E /* Frameworks */,
+				AAD0248E23E922F2009BAE0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeFlat;
+			productName = SwipeFlat;
+			productReference = AAD0249023E922F2009BAE0E /* SwipeFlat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAD024AA23E922F4009BAE0E /* SwipeFlatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD024C223E922F4009BAE0E /* Build configuration list for PBXNativeTarget "SwipeFlatTests" */;
+			buildPhases = (
+				AAD024A723E922F4009BAE0E /* Sources */,
+				AAD024A823E922F4009BAE0E /* Frameworks */,
+				AAD024A923E922F4009BAE0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD024AD23E922F4009BAE0E /* PBXTargetDependency */,
+			);
+			name = SwipeFlatTests;
+			productName = SwipeFlatTests;
+			productReference = AAD024AB23E922F4009BAE0E /* SwipeFlatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAD024B523E922F4009BAE0E /* SwipeFlatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD024C523E922F4009BAE0E /* Build configuration list for PBXNativeTarget "SwipeFlatUITests" */;
+			buildPhases = (
+				AAD024B223E922F4009BAE0E /* Sources */,
+				AAD024B323E922F4009BAE0E /* Frameworks */,
+				AAD024B423E922F4009BAE0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD024B823E922F4009BAE0E /* PBXTargetDependency */,
+			);
+			name = SwipeFlatUITests;
+			productName = SwipeFlatUITests;
+			productReference = AAD024B623E922F4009BAE0E /* SwipeFlatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAD0248823E922F2009BAE0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = ChenHongWei;
+				TargetAttributes = {
+					AAD0248F23E922F2009BAE0E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					AAD024AA23E922F4009BAE0E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = AAD0248F23E922F2009BAE0E;
+					};
+					AAD024B523E922F4009BAE0E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = AAD0248F23E922F2009BAE0E;
+					};
+				};
+			};
+			buildConfigurationList = AAD0248B23E922F2009BAE0E /* Build configuration list for PBXProject "SwipeFlat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAD0248723E922F2009BAE0E;
+			productRefGroup = AAD0249123E922F2009BAE0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAD0248F23E922F2009BAE0E /* SwipeFlat */,
+				AAD024AA23E922F4009BAE0E /* SwipeFlatTests */,
+				AAD024B523E922F4009BAE0E /* SwipeFlatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAD0248E23E922F2009BAE0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD024A323E922F4009BAE0E /* LaunchScreen.storyboard in Resources */,
+				AAD024A023E922F4009BAE0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD024A923E922F4009BAE0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD024B423E922F4009BAE0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAD0248C23E922F2009BAE0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD0249B23E922F2009BAE0E /* ViewController.m in Sources */,
+				AAD024D023E92A1D009BAE0E /* BViewController.m in Sources */,
+				AAD024CD23E92A16009BAE0E /* AViewController.m in Sources */,
+				AAD024D923E92E4B009BAE0E /* SwipeFlatConfiguration.m in Sources */,
+				AAD0249523E922F2009BAE0E /* AppDelegate.m in Sources */,
+				AAD024A623E922F4009BAE0E /* main.m in Sources */,
+				AAD024CA23E92307009BAE0E /* SwipeFlatView.m in Sources */,
+				AAD024D323E92A22009BAE0E /* CViewController.m in Sources */,
+				AAD024D623E92A28009BAE0E /* DViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD024A723E922F4009BAE0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD024B023E922F4009BAE0E /* SwipeFlatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD024B223E922F4009BAE0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD024BB23E922F4009BAE0E /* SwipeFlatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAD024AD23E922F4009BAE0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD0248F23E922F2009BAE0E /* SwipeFlat */;
+			targetProxy = AAD024AC23E922F4009BAE0E /* PBXContainerItemProxy */;
+		};
+		AAD024B823E922F4009BAE0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD0248F23E922F2009BAE0E /* SwipeFlat */;
+			targetProxy = AAD024B723E922F4009BAE0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAD024A123E922F4009BAE0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD024A223E922F4009BAE0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAD024BD23E922F4009BAE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAD024BE23E922F4009BAE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAD024C023E922F4009BAE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeFlat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenhongwei.SwipeFlat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAD024C123E922F4009BAE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeFlat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenhongwei.SwipeFlat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAD024C323E922F4009BAE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeFlatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenhongwei.SwipeFlatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeFlat.app/SwipeFlat";
+			};
+			name = Debug;
+		};
+		AAD024C423E922F4009BAE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeFlatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenhongwei.SwipeFlatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeFlat.app/SwipeFlat";
+			};
+			name = Release;
+		};
+		AAD024C623E922F4009BAE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeFlatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenhongwei.SwipeFlatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwipeFlat;
+			};
+			name = Debug;
+		};
+		AAD024C723E922F4009BAE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeFlatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenhongwei.SwipeFlatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwipeFlat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAD0248B23E922F2009BAE0E /* Build configuration list for PBXProject "SwipeFlat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD024BD23E922F4009BAE0E /* Debug */,
+				AAD024BE23E922F4009BAE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD024BF23E922F4009BAE0E /* Build configuration list for PBXNativeTarget "SwipeFlat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD024C023E922F4009BAE0E /* Debug */,
+				AAD024C123E922F4009BAE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD024C223E922F4009BAE0E /* Build configuration list for PBXNativeTarget "SwipeFlatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD024C323E922F4009BAE0E /* Debug */,
+				AAD024C423E922F4009BAE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD024C523E922F4009BAE0E /* Build configuration list for PBXNativeTarget "SwipeFlatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD024C623E922F4009BAE0E /* Debug */,
+				AAD024C723E922F4009BAE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAD0248823E922F2009BAE0E /* Project object */;
+}
