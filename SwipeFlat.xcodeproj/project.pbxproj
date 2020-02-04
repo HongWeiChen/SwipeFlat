@@ -117,14 +117,11 @@
 		AAD0249223E922F2009BAE0E /* SwipeFlat */ = {
 			isa = PBXGroup;
 			children = (
+				AAF2A5D123E936CD0090A720 /* Classes */,
 				AAD0249323E922F2009BAE0E /* AppDelegate.h */,
 				AAD0249423E922F2009BAE0E /* AppDelegate.m */,
 				AAD0249923E922F2009BAE0E /* ViewController.h */,
 				AAD0249A23E922F2009BAE0E /* ViewController.m */,
-				AAD024D723E92E4B009BAE0E /* SwipeFlatConfiguration.h */,
-				AAD024D823E92E4B009BAE0E /* SwipeFlatConfiguration.m */,
-				AAD024C823E92307009BAE0E /* SwipeFlatView.h */,
-				AAD024C923E92307009BAE0E /* SwipeFlatView.m */,
 				AAD024CB23E92A16009BAE0E /* AViewController.h */,
 				AAD024CC23E92A16009BAE0E /* AViewController.m */,
 				AAD024CE23E92A1D009BAE0E /* BViewController.h */,
@@ -157,6 +154,25 @@
 				AAD024BC23E922F4009BAE0E /* Info.plist */,
 			);
 			path = SwipeFlatUITests;
+			sourceTree = "<group>";
+		};
+		AAF2A5D123E936CD0090A720 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AAF2A5D223E936D80090A720 /* SwipeFlat */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AAF2A5D223E936D80090A720 /* SwipeFlat */ = {
+			isa = PBXGroup;
+			children = (
+				AAD024D723E92E4B009BAE0E /* SwipeFlatConfiguration.h */,
+				AAD024D823E92E4B009BAE0E /* SwipeFlatConfiguration.m */,
+				AAD024C823E92307009BAE0E /* SwipeFlatView.h */,
+				AAD024C923E92307009BAE0E /* SwipeFlatView.m */,
+			);
+			path = SwipeFlat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
